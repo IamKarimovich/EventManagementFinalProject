@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width:80vw;
+    height: 70px;
+    background-color: #FFE569;
+    margin:auto;
+    margin-top: 35px;
+    border: 2px solid black;
+    border-bottom: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+   display: inline-block;
+   padding: 23px 53px;
+}
+
+
+li:active{
+    color: blue;
+}
+
+li:hover{
+    color: brown;
+}
+
+main {
+    height: 600px;
+    background-image: url('https://imagekit.io/blog/content/images/2019/12/image-optimization.jpg');
+    width: 80vw;
+    margin: auto;
+    background-size: cover;
+    border: 2px solid black;
+    border-top: 0;
+    border-radius: 0 0 10px 10px;
+  }
+
+  body{
+    background-color:#19376D;
+   
+  }

@@ -1,0 +1,129 @@
+main {
+    height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1661956600684-97d3a4320e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwzMXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80);
+    width: 100vw;
+    max-width: 1150px;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid #BBD6B8;
+    background-size: cover;
+}
+
+body {
+    background-color: #9aadeb;
+}
+
+header {
+    height: 70px;
+    width: 100vw;
+    max-width: 1150px;
+    border: 2px solid #BBD6B8;
+    background-color: #ECF2FF;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #FFB84C;
+    letter-spacing: 5px;
+    padding: 50px 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #E7B10A;
+}
+
+nav li {
+    display: inline;
+    margin-left: 120px;
+
+}
+
+nav a:hover {
+    color: #62CDFF;
+}
+
+nav li.active a {
+    color: #62CDFF;
+}
+
+.nav-profile-icon {
+    color: #E7B10A;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.nav-profile-icon:hover {
+    color: #62CDFF;
+}
+
+
+footer {
+    margin: 0 auto;
+}
+
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #ECF2FF;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.about-section h2 {
+    color: #FFB84C;
+    letter-spacing: 5px;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    color: #E7B10A;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    background-color: #ECF2FF;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.social-icons {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.social-icons li {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.social-icons a {
+    color: #E7B10A;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #62CDFF;
+}
